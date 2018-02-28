@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdec57f-5d88-442a-bfa8-ac2580d0be23" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Images/Kelly-Moutou-ceramics.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/descriptions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Portfolio/PotteryWebsite" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/Pottery practice.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/blog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/shop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/kelimutu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/headerImg.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/kelly1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/kelly2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/kelly3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/thumb1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/thumb2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/thumb3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/thumb4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/potterySite/thumb5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/websiteRefs/wetlands.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/descriptions.js" afterPath="$PROJECT_DIR$/descriptions.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,8 +96,18 @@
       <file leaf-file-name="descriptions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/descriptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="96" lean-forward="false" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
+            <state relative-caret-position="275">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitmodules">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,12 +211,13 @@
             <path>
               <item name="turkron.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="turkron.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turkron.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="turkron.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="PotteryWebsite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/iwg/slingo-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PotteryWebsite" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -244,18 +268,20 @@
       <workItem from="1519322490802" duration="9000" />
       <workItem from="1519386983181" duration="11666000" />
       <workItem from="1519642549480" duration="631000" />
-      <workItem from="1519746792773" duration="14730000" />
+      <workItem from="1519746792773" duration="17609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31261000" />
+    <option name="totallyTimeSpent" value="34140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1296" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12559618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12559618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -606,10 +632,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/descriptions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="96" lean-forward="false" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

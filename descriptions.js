@@ -1,7 +1,7 @@
 var contentList = {
     KellyMoutou: {
         text:"Built a website for my fiancée to help her establish herself as a start up potter.",
-        content:"<iframe width=\"100%\" height=\"100%\" src=\"Portfolio/Pottery%20practice.html\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+        content:"<iframe width=\"100%\" height=\"100%\" src=\"Portfolio/PotteryWebsite/index.html\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
     },
     undefined:{
         text:"this param is not found",

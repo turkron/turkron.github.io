@@ -1,0 +1,3 @@
+[submodule "Portfolio/PotteryWebsite"]
+	path = Portfolio/PotteryWebsite
+	url = https://github.com/turkron/PotteryWebsite.git
