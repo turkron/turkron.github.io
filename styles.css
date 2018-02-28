@@ -27,3 +27,13 @@ hr.style1 {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.thumbnailText{
+    opacity: 0;
+}
+.w3-button :hover .thumbnailText{
+    opacity: 1;
+}
+.thumbnailPadding{
+    padding: 0;margin-bottom: 5px;
+}
