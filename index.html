@@ -5,14 +5,15 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
       integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
 <script type="text/javascript" src="UI.js"></script>
+<script type="text/javascript" src="descriptions.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>Nathan Kendall AKA Turkron</title>
 </head>
 
-
-<body onload="updateClock()">
+<body onload="updateClock(); loadLinks(document.getElementById('thumbnails-main'))">
 
 <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:20%" id="sideBar">
     <div class="w3-container w3-dark-grey" style="height: 50px">
@@ -55,13 +56,13 @@
 
     <div class="w3-container w3-light-grey">
 
-        <section class="w3-row-padding w3-center">
-            <article class="w3-display-container w3-button w3-white w3-hover-black thumbnailPadding">
+        <section class="w3-row-padding w3-center" id="thumbnails-main">
+            <!--<article class="w3-display-container w3-button w3-white w3-hover-black thumbnailPadding">
                 <a href="content.html#?content=KellyMoutou">
                     <img src="Images/Kelly-Moutou-ceramics.png" class="w3-opacity w3-white w3-card-4 " height="256"
                          width="256">
-                    <div class="w3-display-middle"><p class="thumbnailText" style="color: whitesmoke"> Start up Pottery
-                        Studio website</p></div>
+                    <div class="w3-display-middle"><p class="thumbnailText" style="color: whitesmoke">
+                        Start up Pottery Studio website</p></div>
                 </a>
             </article>
             <article class="w3-display-container w3-button w3-white w3-hover-black thumbnailPadding">
@@ -114,7 +115,7 @@
                     <div class="w3-display-middle"><p class="thumbnailText" style="color: whitesmoke"> How much of this
                         can <BR> I get away with and How much can <BR> I style this to suit my needs</p></div>
                 </a>
-            </article>
+            </article>-->
         </section>
 
     </div>
