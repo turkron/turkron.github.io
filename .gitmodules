@@ -1,3 +1,12 @@
 [submodule "Portfolio/PotteryWebsite"]
 	path = Portfolio/PotteryWebsite
 	url = https://github.com/turkron/PotteryWebsite.git
+[submodule "blackJack"]
+	path = Portfolio/blackJack
+	url = https://github.com/turkron/blackJack.git
+[submodule "Portfolio/chatRoom"]
+	path = Portfolio/chatRoom
+	url = https://github.com/turkron/chatRoom.git
+[submodule "Portfolio/fishingSchool"]
+	path = Portfolio/fishingSchool
+	url = https://github.com/turkron/fishingSchool.git
