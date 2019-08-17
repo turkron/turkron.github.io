@@ -1,81 +1,310 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link rel="stylesheet" href="styles.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.min.js"></script>
-<script type="text/javascript" src="UI.js"></script>
-<script type="text/javascript" src="descriptions.js"></script>
 <head>
-    <meta charset="UTF-8">
-    <title>Nathan Kendall AKA Turkron</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nathan D Kendall, Developer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
 </head>
 
-<body onload="updateClock(); loadLinks(document.getElementById('thumbnails-main'))">
+<body>
 
-<div class="w3-sidebar w3-bar-block w3-light-grey" style="width:20%" id="sideBar">
-    <div class="w3-container w3-dark-grey" style="height: 50px">
-        <p class="w3-center">Nathan D Kendall</p>
-    </div>
-
-    <img src="Images/logo.png" width="100%">
-
-    <div class="w3-container w3-dark-grey">
-        <p class="w3-center">Developer</p>
-    </div>
-
-    <p style="text-align: center;"><em>Lives in London, United Kingdom</em></p>
-    <p style="text-align: center;"><em>'Something about dragons'</em></p>
-    <p style="text-align: center;"> <a href="http://github.com/turkron">GitHub</a> | <a
-            href="https://www.linkedin.com/in/nathankendall" target="_blank" rel="noopener">LinkedIn</a> | <a
-            href="Nathandkendall@hotmail.com" target="_blank" rel="noopener">Email</a> | <a
-            href="https://play.google.com/store/apps/developer?id=Nathan%20Kendall&hl=en">Google Play</a></p>
-    <p style="text-align: center;">An avid and passionate video gamer, programmer and designer graduate from the London
-        College of Communication.</p>
-    <p style="text-align: center;">In my current role, my main focus is programming and developing gambling games for a
-        world leading and award winning online gambling provider. Additional responsiblities including developing gaming
-        concepts and rapid prototyping them for stake holder presentations.</p>
-    <p style="text-align: center;">My portfolio contains screenshots and video footage of all of my games and projects.
-        All documentation and game files are available upon request so please do not hesitate to drop me an email if you
-        want to know more!</p>
-    <p style="text-align: center;"></p>
-
-
-
-</div>
-<div style="margin-left:20%" id="page-container">
-    <nav class="w3-black" style="display: block; height: 50px">
-        <a href="index.html" class="w3-bar-item w3-button">Projects<span class="w3-tag w3-red w3-round w3-right">6</span></a>
-        <a style="float: right" id="time"> </a>
-    </nav>
-    <div id="content-wrap">
-        <div class="w3-container w3-light-grey">
-            <section class="w3-row-padding w3-center" id="thumbnails-main"></section>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">
+                            An avid and passionate video gamer, programmer and designer graduate from the London College of Communication.
+                        </p>
+                        <p class="text-muted">
+                            In my current role, my main focus is programming and developing gambling games for a world leading and award winning online gambling provider. Additional responsiblities including developing gaming concepts and rapid prototyping them for stake holder presentations.
+                        </p>
+                        <p class="text-muted">
+                            My portfolio contains screenshots and video footage of all of my games and projects. All documentation and game files are available upon request so please do not hesitate to drop me an email if you want to know more!
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.github.com/turkron" class="text-white">Checkout Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/nathankendall/" class="text-white">Link me on LinkedIn</a></li>
+                            <li><a href="mailto: NathanDKendall@hotmail.com" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    
+                    <strong>Portfolio</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
-    <footer class="w3-container w3-padding-64 w3-white w3-center">
-        <div class="w3-container" style="display: inline-block">
-            <a href="https://www.github.com/turkron"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="w3-container" style="display: inline-block">
-            <a href="https://www.linkedin.com/turkron"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="w3-container" style="display: inline-block">
-            <a href="https://www.github.com/turkron"><i class="fab fa-google-play"></i></a>
-        </div>
-        <div class="w3-container" style="display: inline-block">
-            <a href="mailto:nathandkendall@hotmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
-        <div class="w3-container" style="display: inline-block">
-            <a href="tel:+44 7926612727"><i class="fas fa-phone"></i></a>
-        </div>
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Nathan D Kendall</h1>
+                <h1 class="jumbotron-heading">Developer</h1>
+                <p class="jumbotron-description">Welcome! Below you can find most of my previous projects and work</p>
+                <p>
+                    <a href="tel: +447926612727" class="btn btn-primary my-2">Contact me!</a>
+                </p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="images/jungleTumble.png" width="100%" height="225px" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Flagship game that I developed as part of my time at Instant Win Gaming Ltd. Spearheaded development on project.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.michiganlottery.com/games/1754-jungle-payout'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="images/lucky7x7.png" width="100%" height="225px" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">One of many games that I developed as part of my time at IWG.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.michiganlottery.com/games/1745-lucky-7x7'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/slingo-cashbuster.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Second favorite project of mine that I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.tipp24.com/slingocashbuster?teaserId=navi_slingocashbuster'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/slingo-bonus.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Another project I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.tipp24.com/slingobonus?teaserId=navi_slingobonus'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/crossword-german.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Private lane project I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.tipp24.com/kreuzwortraetsel?teaserId=navi_crossword'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/crossword-bonus.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Private lane project I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.tipp24.com/kreuzwortraetselbonus?teaserId=navi_crosswordbonus'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/pirates-7x7.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Another project I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.pailottery.com/games/all-games/treasure_7x7/play/free/'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/million.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Another project I developed at IWG</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" onclick="window.location.href = 'https://www.juegosonce.es/demo-rasca-mega-millonario'" class="btn btn-sm btn-outline-secondary">Play</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="images/Kelly-Moutou-ceramics.png" alt="Moutou-ceramics" width="100%" height="225px">
+                            <div class="card-body">
+                                <p class="card-text">Website built as a prototype for a start up ceramics company, breif included a new for photo streams and the ability to add a shop.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="images/chatroom.png" alt="Chat room" width="100%" height="225px">
+                            <div class="card-body">
+                                <p class="card-text">Prototype chat room built to allow conversations between work colleages on the same network, logs chat and outputs in to a file for save storing.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="images/fishing.png" alt="Kendall Fishing" width="100%" height="225px">
+                            <div class="card-body">
+                                <p class="card-text">Prototype website built as part of a pitch to secure funding for a new start up fishing school in Folkestone. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/invaders.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Created a copy of a famous game as part of a game jam that took place over 24h.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/snake2.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Second game created as part of a 24h game jam to decide the winner.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" width="100%" height="225px" src="images/blackJack.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">A game of black jack. Built with the ability to be played with up to 3 players, AI will take over a players spot if avalible</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">2018</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
     </footer>
-</div>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../node_modules/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../node_modules/bootstrap/assets/popper.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../node_modules/bootstrap/assets/holder.min.js"></script>
 </body>
 </html>
